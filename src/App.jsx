@@ -8,7 +8,11 @@ function App() {
       {/* Navbar fija arriba */}
       <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-md border-b border-white/5">
         <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-          <span className="font-bold text-xl tracking-tighter">MD</span>
+          <a href="#perfil" className="group">
+            <span className="font-bold text-xl tracking-tighter text-white group-hover:text-blue-400 transition-colors">
+              MD
+            </span>
+          </a>
           <div className="flex gap-8 text-sm font-medium text-gray-400">
             <a href="#perfil" className="hover:text-white transition-colors">Perfil</a>
             <a href="#tecnologias" className="hover:text-white transition-colors">Tecnologias</a>
@@ -46,9 +50,9 @@ function App() {
           <div className="bg-[#111] border border-zinc-800 p-8 rounded-2xl">
             <h3 className="text-xl font-bold mb-4 text-blue-400">Lenguajes</h3>
             <ul className="text-gray-400 space-y-2">
-              <li>• C#</li>
               <li>• C</li>
               <li>• JavaScript</li>
+              <li>• Python</li>
             </ul>
           </div>
           <div className="bg-[#111] border border-zinc-800 p-8 rounded-2xl">
@@ -80,6 +84,7 @@ function App() {
             <ProjectCard key={p.id} {...p} />
           ))}
         </div>
+
       </section>
 
       {/* SECCIÓN 4: Contacto (Ocupa casi toda la pantalla) */}
@@ -95,6 +100,7 @@ function App() {
           <div className="mt-12 flex justify-center gap-8">
             <a href="https://github.com/matiasdiaz142" target="_blank" className="text-gray-500 hover:text-white transition">GitHub</a>
             <a href="https://www.linkedin.com/in/matiasdiaz142/" target="_blank" className="text-gray-500 hover:text-white transition">LinkedIn</a>
+            <a href="https://matiasdiaz142.github.io/CVTecnico/" target="_blank" className="text-gray-500 hover:text-white transition">CV</a>
           </div>
         </div>
       </section>

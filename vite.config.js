@@ -1,7 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/portfolio-react/', // CAMBIÁ ESTO por el nombre de tu repositorio en GitHub
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
+  // REEMPLAZA 'portfolio-react' por el nombre exacto de tu repositorio en GitHub
+  base: '/portfolio-react/', 
 })
