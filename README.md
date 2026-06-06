@@ -47,17 +47,17 @@ Si querés clonar este proyecto y ejecutarlo en tu entorno local, seguí estos p
 ```bash
 git clone [https://github.com/matiasdiaz142/portfolio-react.git](https://github.com/matiasdiaz142/portfolio-react.git)
 cd portfolio-react
-
+```
 ### 2. Instalar dependencias
 Para reconstruir de forma limpia la carpeta `node_modules` y evitar los conflictos de Vite con los módulos faltantes:
 ```bash
 npm install
-
+```
 ### 3. Correr en modo desarrollo
 Levantá el servidor local de Vite para ver los cambios en tiempo real:
 ```bash
 npm run dev
-
+```
 Abrí http://localhost:5173 en tu navegador para revisar el sitio.
 ---
 
@@ -77,7 +77,7 @@ git push origin main
 
 # 4. Compilar el proyecto en la carpeta /dist y publicarlo en GitHub Pages
 npm run deploy
-
+```
 ---
 
 ## 📄 Licencia
