@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: "UnaHur Anti-Social Net - Fullstack",
+    title: "UnaHur Anti-Social Net - Backend",
     description: "MVP de red social con gestión de usuarios, publicaciones y comentarios con lógica de visibilidad. Implementa CRUDs completos y Docker.",
     tags: ["Node.js", "Express", "MongoDB", "Docker", "React"],
     link: "https://github.com/EP-UnaHur-2025C1/anti-social-mongo-backend-noobs"
@@ -22,6 +22,13 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Web - Cafeteria",
+    description: "Sitio web para cátedra universitaria.",
+    tags: ["HTML5", "CSS3", "Bootstrap", "JavaScript"],
+    link: "https://github.com/matiasdiaz142/Cafeteria-Interfaces"
+  },
+  {
+    id: 5,
     title: "Space Shooter - Wollok Game",
     description: "Videojuego de disparos con lógica de colisiones, gestión de vidas y generación aleatoria de enemigos bajo el paradigma de objetos.",
     tags: ["Wollok", "POO", "Game Dev"],
@@ -37,5 +44,5 @@ export const projects = [
   { id: 9, title: "Portfolio V1", description: "Primer acercamiento al diseño web.", tags: ["HTML", "CSS"], link: "#" },
   { id: 10, title: "Simulador de Redes", description: "Trabajo sobre protocolos y capas.", tags: ["Sistemas"], link: "#" }
   */
- 
+
 ];
